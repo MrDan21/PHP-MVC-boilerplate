@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(\w+)/(\w+)/?$ /index.php?controller=$1&method=$2 [L,QSA]
