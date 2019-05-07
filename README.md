@@ -6,6 +6,7 @@ Small and simple php framework for small projects.
 * PHP 7 OOP PDO
 * Pretty URLs
 * Login, Register and Email confirmation
+* Router
 
 # Installation
 
