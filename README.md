@@ -9,6 +9,7 @@ Small and simple php framework for small projects.
 * Router
 * Access restriction
 * Alerts
+* Layouts
 
 # Installation
 
