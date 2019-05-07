@@ -5,7 +5,7 @@ Small and simple php framework for small projects.
 * Model-View-Controller pattern
 * PHP 7 OOP PDO
 * Pretty URLs
-* Login, Register and Email confirmation
+* Login, Register, Email confirmation and Edit profile
 * Router
 * Access restriction
 * Alerts
