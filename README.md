@@ -7,6 +7,8 @@ Small and simple php framework for small projects.
 * Pretty URLs
 * Login, Register and Email confirmation
 * Router
+* Access restriction
+* Alerts
 
 # Installation
 
