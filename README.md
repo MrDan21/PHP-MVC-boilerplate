@@ -1,5 +1,5 @@
-# Priscy
-Small and simple php framework for small projects.
+# PHP MVC boilerplate
+A PHP MVC boilerplate is a starting template for PHP projects that implements the Model-View-Controller (MVC) architecture pattern. It provides a basic structure and initial configurations that separate business logic (model), presentation (view), and application control (controller). 
 
 # Features
 * Model-View-Controller pattern
