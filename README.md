@@ -13,7 +13,7 @@ A PHP MVC boilerplate is a starting template for PHP projects that implements th
 
 # Installation
 
-`git clone https://github.com/MrDan21/Priscy.git`
+`git clone https://github.com/MrDan21/PHP-MVC-boilerplate.git`
 
 `composer update`
 
