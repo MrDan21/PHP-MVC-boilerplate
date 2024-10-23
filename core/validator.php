@@ -27,7 +27,7 @@ abstract class Validator extends Connection
 		return true;
 	}
 
-	final private function exceptionCondition($contidition, string $message) 
+	protected function exceptionCondition($contidition, string $message) 
 	{
 		if($contidition) {
 			throw new Exception($message);

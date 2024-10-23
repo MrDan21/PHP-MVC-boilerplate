@@ -2,6 +2,7 @@
 
 namespace Core\Database;
 
+use Core\Database\Drivers\DatabaseFactory;
 use PDO;
 
 abstract class Connection
@@ -10,12 +11,7 @@ abstract class Connection
 
 	public function __construct()
 	{
-		try {
-			$this->conn = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
-			$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		} catch(PDOException $e) {
-			echo "Connection failed: " . $e->getMessage();
-		}
+		$this->conn = DatabaseFactory::createConnection(DB_TYPE);
 	}
 
 	public function getAll(string $table, $order = null) : array

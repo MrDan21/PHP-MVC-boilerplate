@@ -80,7 +80,7 @@ class Router
 
 	private function getView($view)
 	{
-		include($_SERVER['DOCUMENT_ROOT'].'views/'.$view.'.php');
+		include($_SERVER['DOCUMENT_ROOT'].'/views/'.$view.'.php');
 	}
 
 }

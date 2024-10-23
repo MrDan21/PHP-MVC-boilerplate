@@ -22,7 +22,7 @@ abstract class Model extends Connection
 		$this->renderIfFalse(parent::find($table, $id, $columns), $view);
 	}	
 
-	final private function renderIfFalse($model, View $view)
+	protected function renderIfFalse($model, View $view)
 	{
 		if(!$model) {
 			echo $view->render('errors/404');
